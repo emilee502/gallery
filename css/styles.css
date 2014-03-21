@@ -12,15 +12,15 @@ body {
 }
 
 div:nth-child(1) {
-	width: auto;
+	width: 500px;
 	height: 100%;
 }
 
-th:nth-child(1) {
+div {
 	width: 400px;
 	height: 800px;
 	padding: 0;
-	background-image: url("../img/desk.JPG") fixed center no-repeat;
+	background: url("../img/desk.JPG") fixed center no-repeat;
 	background-size: cover;
 	transition: all 2s; 
 	-o-transition: all 2s; 
@@ -38,7 +38,7 @@ h1 {
 	font-size: 100px;
 }
 
-th:nth-child(1) ul {
+ul {
   text-align: center;
   padding: 0;
   margin: 30px auto;
@@ -49,7 +49,7 @@ th:nth-child(1) ul {
     -webkit-transition: all 2s;
 }
 
-th:nth-child(1) li {
+li {
   display: inline;
   text-align: center;
   font-family: 'Nothing You Could Do', cursive;
@@ -60,10 +60,10 @@ th:nth-child(1) li {
     -webkit-transition: all 1s;
 }
 
-th:nth-child(1) a:link,
-th:nth-child(1) a:visited,
-th:nth-child(1) a:hover,
-th:nth-child(1) a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   color: white;
   font-size: 30px;
   padding: 10px 25px;
@@ -75,6 +75,7 @@ th:nth-child(1) a:active {
 }
 
 table {
+	margin-left: 500px;
 	position: absolute;
 	height: 50%;
 	width: 30%;
