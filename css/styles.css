@@ -60,10 +60,10 @@ li {
     -webkit-transition: all 1s;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
+tr th:nth-child(1) a:link,
+tr th:nth-child(1) a:visited,
+tr th:nth-child(1) a:hover,
+tr th:nth-child(1) a:active {
   color: black;
   font-size: 30px;
   padding: 10px 25px;
