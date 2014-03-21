@@ -20,7 +20,7 @@ div {
 	width: 300px;
 	height: 800px;
 	padding: 0;
-	/*background: url("../img/desk.JPG") fixed right no-repeat;*/
+	background: url("../img/desk.JPG") fixed right no-repeat;
 	background-size: contain;
 	transition: all 2s; 
 	-o-transition: all 2s; 
@@ -30,7 +30,7 @@ div {
 
 h1 {
 	padding-top: 400px;
-	color: black;
+	color: white;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
@@ -53,7 +53,7 @@ li {
   display: inline;
   text-align: center;
   font-family: 'Nothing You Could Do', cursive;
-  color: black;
+  color: white;
   transition: all 1s; 
     -o-transition: all 1s; 
     -moz-transition: all 1s; 
@@ -64,7 +64,7 @@ tr th:nth-child(1) a:link,
 tr th:nth-child(1) a:visited,
 tr th:nth-child(1) a:hover,
 tr th:nth-child(1) a:active {
-  color: black;
+  color: white;
   font-size: 30px;
   padding: 10px 25px;
   text-decoration: none;
